@@ -93,7 +93,7 @@ export default {
 
       try {
         const res = await axios.post(
-          "http://localhost:3000/api/form-data",
+          "https://projectnashikploggers.onrender.com/api/form-data",
           formData
         );
         console.log(res);
@@ -179,3 +179,4 @@ button[type="submit"]:hover {
   background-color: #16a085;
 }
 </style>
+<!-- mongodb://localhost:27017 -->
