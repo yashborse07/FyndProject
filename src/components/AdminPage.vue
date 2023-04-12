@@ -46,7 +46,7 @@
             <th>Age</th>
             <th>Address</th>
             <th>College</th>
-            <th>Friend</th>
+            <th>Plogger Friend</th>
             <th>Views</th>
           </tr>
         </thead>
