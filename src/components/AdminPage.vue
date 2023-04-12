@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="formdiv">
     <h1>Admin Section</h1>
     <table class="table table-success table-striped">
       <thead>
@@ -50,5 +50,7 @@ export default {
 </script>
 
 <style scoped>
-/* Add custom styles here */
+.formdiv{
+  margin-top:10%;
+}
 </style>
