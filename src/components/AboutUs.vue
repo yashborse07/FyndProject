@@ -196,6 +196,12 @@ export default {
   object-fit: cover;
   border-radius: 50%;
   border: 2px solid #ccc;
+  transition: transform 0.2s ease-in-out;
+
+}
+.photo:hover{
+  transform: scale(1.5);
+
 }
 
 .name {

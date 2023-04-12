@@ -41,7 +41,7 @@ export default {
   <style scoped>
 .footer {
   width: 100%;
-  height:9vh;
+  height:10vh;
   background-color: green;
   display: flex;
   align-items: center;

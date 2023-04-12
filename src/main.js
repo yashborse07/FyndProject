@@ -9,6 +9,24 @@ import BeAMember from './components/BeAMember.vue';
 import DonateUs from './components/DonateUs.vue';
 import FeednSuggestion from './components/FeednSuggestion.vue';
 import OurCollaborators from './components/OurCollaborators.vue';
+import AdminRegister from './components/AdminRegister.vue'
+import AdminPage from './components/AdminPage.vue'
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/auth';
+import 'firebase/compat/firestore';
+const firebaseConfig = {
+  apiKey: "AIzaSyAyPyVWBPsZGLqYUTBXKoh86GAqmNQU1As",
+  authDomain: "ploggers-e8ced.firebaseapp.com",
+  projectId: "ploggers-e8ced",
+  storageBucket: "ploggers-e8ced.appspot.com",
+  messagingSenderId: "77501873993",
+  appId: "1:77501873993:web:54a34f82248e6408642498"
+};
+firebase.initializeApp(firebaseConfig);
+
+
+
+
 
 Vue.config.productionTip = false;
 
@@ -59,6 +77,17 @@ const routes = [
     name: 'OurCollaborators',
     component: OurCollaborators
   },
+  {
+    path: '/AdminRegister',
+    name: 'AdminRegister',
+    component: AdminRegister
+  },
+  {
+    path: '/AdminPage',
+    name: 'AdminPage',
+    component: AdminPage
+  },
+
 
 ];
 

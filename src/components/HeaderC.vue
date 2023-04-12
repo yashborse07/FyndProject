@@ -1,27 +1,32 @@
-
 <template>
   <header>
     <div class="logo">
-      <router-link to="/"
-        ><img src="../assets/homepage/nplogo1.jpg" alt="Nashik Ploggers Logo"
-      /></router-link>
+      <router-link to="/">
+        <img src="../assets/homepage/nplogo1.jpg" alt="Nashik Ploggers Logo" />
+      </router-link>
     </div>
     <nav class="sticky-top">
       <button class="menu-toggle" @click="toggleMenu">
         <span class="menu-icon"></span>
       </button>
       <ul class="menu" :class="{ 'is-active': isMenuActive }">
-        <li><router-link to="/">Home</router-link></li>
-        <li><router-link to="/aboutus">About Us</router-link></li>
         <li>
-          <router-link to="/proninit">Projects and Initiatives</router-link>
-        </li>
-
-        <li>
-          <router-link to="/image-gallery">Image Gallery</router-link>
+          <router-link to="/" exact-active-class="active">Home</router-link>
         </li>
         <li>
-          <router-link to="/our-collaborators">Our Collaborators</router-link>
+          <router-link to="/aboutus" exact-active-class="active">About Us</router-link>
+        </li>
+        <li>
+          <router-link to="/proninit" exact-active-class="active">Initiatives</router-link>
+        </li>
+        <li>
+          <router-link to="/image-gallery" exact-active-class="active">Gallery</router-link>
+        </li>
+        <li>
+          <router-link to="/our-collaborators" exact-active-class="active">Collaborators</router-link>
+        </li>
+        <li>
+          <router-link to="/AdminRegister" exact-active-class="active">Admin</router-link>
         </li>
       </ul>
     </nav>
@@ -54,6 +59,9 @@ header {
   margin-bottom: 1%;
   font-size: larger;
   z-index: 10;
+}
+.active {
+  color: skyblue; /* replace with your desired style */
 }
 
 .logo img {

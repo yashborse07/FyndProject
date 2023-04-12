@@ -69,7 +69,7 @@ export default {
       };
       try {
         const res = await axios.post(
-          "https://projectnashikploggers.onrender.com/api/feedback-Data",
+          "http://localhost:3000/api/feedback-Data",
           feedbackData
         );
         console.log(res);

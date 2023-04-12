@@ -126,10 +126,15 @@ export default {
   margin-top: 50%;
   margin-bottom: 0%;
   filter: grayscale(100%);
+  transition: transform 0.2s ease-in-out;
 }
+
 
 .gallery > img:hover {
   filter: grayscale(0%);
+
+  transform: scale(1.1);
+
 }
 
 .gallery > img:not(:hover) {
