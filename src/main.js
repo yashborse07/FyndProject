@@ -11,6 +11,7 @@ import FeednSuggestion from './components/FeednSuggestion.vue';
 import OurCollaborators from './components/OurCollaborators.vue';
 import AdminRegister from './components/AdminRegister.vue'
 import AdminPage from './components/AdminPage.vue'
+import DemoC from './components/DemoC.vue'
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
@@ -86,6 +87,11 @@ const routes = [
     path: '/AdminPage',
     name: 'AdminPage',
     component: AdminPage
+  },
+  {
+    path: '/DemoC',
+    name: 'DemoC',
+    component: DemoC
   },
 
 
