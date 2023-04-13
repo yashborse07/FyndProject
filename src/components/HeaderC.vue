@@ -57,6 +57,7 @@ header {
   justify-content: space-between;
   position: fixed;
   margin-bottom: 1%;
+  margin-top: 0%;
   font-size: larger;
   z-index: 10;
 }

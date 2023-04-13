@@ -1,9 +1,21 @@
 <template>
-  <div class="formdiv">
+  <main>
+  <div class="formdiv" style="margin-left: 3%;">
     <h1>Admin Section</h1>
     
     <!-- Table for Form Data -->
-    <table class="table table-success table-striped">
+    <h1
+        style="
+          text-align: center;
+          color: green;
+          font-size: 250%;
+          margin-top: 5%;
+          font-family: 'Times New Roman', Times, serif;
+        "
+      >
+       Membership Form
+      </h1>
+    <table class="table table-success table-striped" style="margin-top: 5%;">
       <thead>
         <tr>
           <th>Name</th>
@@ -27,7 +39,18 @@
     </table>
     
     <!-- Table for Donation Data -->
-    <table class="table table-success table-striped">
+    <h1
+        style="
+          text-align: center;
+          color: green;
+          font-size: 250%;
+          margin-top: 5%;
+          font-family: 'Times New Roman', Times, serif;
+        "
+      >
+      Donation Form
+      </h1>
+    <table class="table table-success table-striped" style="margin-top: 5%;">
       <thead>
         <tr>
           <th>Name</th>
@@ -47,7 +70,18 @@
     </table>
     
     <!-- Table for Feedback Data -->
-    <table class="table table-success table-striped">
+    <h1
+        style="
+          text-align: center;
+          color: green;
+          font-size: 250%;
+          margin-top: 5%;
+          font-family: 'Times New Roman', Times, serif;
+        "
+      >
+     Feedback Form
+      </h1>
+    <table class="table table-success table-striped" style="margin-top: 5%;">
       <thead>
         <tr>
           <th>Name</th>
@@ -66,7 +100,7 @@
       </tbody>
     </table>
     
-  </div>
+  </div></main>
 </template>
 
 
@@ -102,7 +136,4 @@ export default {
 </script>
 
 <style scoped>
-.formdiv{
-  margin-top:50%;
-}
 </style>
