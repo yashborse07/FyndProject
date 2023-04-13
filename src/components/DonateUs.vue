@@ -101,7 +101,7 @@ export default {
       };
       try {
         const res = await axios.post(
-          "http://localhost:3000/api/donation-Data",
+          "https://projectnashikploggers.onrender.com/api/donation-Data",
           donationData
         );
         console.log(res);
