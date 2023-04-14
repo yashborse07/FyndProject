@@ -102,7 +102,7 @@
           font-family: 'Times New Roman', Times, serif;
         "
       >
-        THANKYOU
+        THANK-YOU
       </h1>
     </div>
 

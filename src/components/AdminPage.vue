@@ -120,7 +120,7 @@ export default {
     Promise.all([
       axios.get('https://projectnashikploggers.onrender.com/api/all-form-data'),
       axios.get('https://projectnashikploggers.onrender.com/api/all-donation-Data'),
-      axios.get('https://projectnashikploggers.onrender.com/api/all-feedback-Data')
+      axios.get('https://projectnashikploggers.onrender.com/api/all-feedback-Data'),
     ])
     .then(([formDataResponse, donationDataResponse, feedbackDataResponse]) => {
       this.formData = formDataResponse.data;
