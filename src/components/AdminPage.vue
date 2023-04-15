@@ -15,7 +15,7 @@
       >
        Membership Form
       </h1>
-    <table class="table table-success table-striped" style="margin-top: 5%;">
+    <table class="table table-success table-striped" >
       <thead>
         <tr>
           <th>Name</th>
@@ -50,7 +50,7 @@
       >
       Donation Form
       </h1>
-    <table class="table table-success table-striped" style="margin-top: 5%;">
+    <table class="table table-success table-striped" >
       <thead>
         <tr>
           <th>Name</th>
@@ -81,7 +81,7 @@
       >
      Feedback Form
       </h1>
-    <table class="table table-success table-striped" style="margin-top: 5%;">
+    <table class="table table-success table-striped" >
       <thead>
         <tr>
           <th>Name</th>

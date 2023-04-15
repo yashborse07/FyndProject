@@ -42,7 +42,7 @@ export default {
 .footer {
   width: 100%;
   height:10vh;
-  background-color: green;
+  background-color: #F5F5DC;
   display: flex;
   align-items: center;
   text-align: center;
@@ -54,7 +54,7 @@ export default {
   position: relative;
   left: 0;
 
-  z-index: 9999;
+  z-index: 0;
 }
 </style>
   
